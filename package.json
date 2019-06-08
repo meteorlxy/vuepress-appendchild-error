@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "scripts": {
+    "bug": "vuepress build bug --dest dist_bug && cd dist_bug && anywhere 7777",
+    "workaround": "vuepress build workaround --dest dist_workaround && cd dist_workaround && anywhere 7888"
+  },
+  "dependencies": {
+    "anywhere": "^1.5.0",
+    "vuepress": "^1.0.0"
+  }
+}
